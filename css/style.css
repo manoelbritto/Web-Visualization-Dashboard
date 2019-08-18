@@ -8,3 +8,25 @@
     font-size: 25px;
     font-weight: bold;
 }
+.board{
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+
+    
+}
+
+.background {
+    background-color: #d6c2c2;
+}
+.image_size{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+.text_format{
+    width: 70%;
+    float: left;
+}
