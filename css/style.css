@@ -59,7 +59,7 @@ footer{
     
 }
 
-@media (max-width: 866px) { 
+@media (max-width: 600px) { 
 
 .image_size_view{
     width: 150px;
@@ -67,14 +67,6 @@ footer{
     float: left;
 
 }
-.size_hide{
-        visibility:collapse;
-    
-    }
-}
-
-@media (max-width: 866px) { 
-
 .size_hide{
         visibility:collapse;
     
