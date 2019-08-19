@@ -31,14 +31,15 @@
 }
 
 .image_size_view_large{
-    width: 80%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
     
 }
 
 .image_size_view_comp{
-    width: 80%;
+    width: 75%;
+    height: 70%;
     display: block;
 
 }
