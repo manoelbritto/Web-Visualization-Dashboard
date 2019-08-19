@@ -1,11 +1,10 @@
 .back_color {
     background-color: dodgerblue;
-    margin-left: 3%;
+    margin-left: 100%;
     padding-left: 20px;
     padding-right: 20px;
     font-family: serif;
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 25px;   
 }
 .board{
     margin-top: 50px;
@@ -31,6 +30,18 @@
 
 }
 
+.image_size_view_large{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.image_size_view_comp{
+    width: 80%;
+    display: block;
+
+}
 .text_format{
     width: 70%;
     float: left;
@@ -39,15 +50,33 @@
 .card-title{
     color:#03b188;
 }
+footer{
+    text-align: center;
+    color: white;
+    background: #196f6f;
+    display: block;
+    padding: 0.5%;
+    
+}
 
-@media (max-width: 575.98px) { 
+@media (max-width: 866px) { 
 
 .image_size_view{
     width: 150px;
     height: 150px;
     float: left;
 
-
-
 }
+.size_hide{
+        visibility:collapse;
+    
+    }
+}
+
+@media (max-width: 866px) { 
+
+.size_hide{
+        visibility:collapse;
+    
+    }
 }
